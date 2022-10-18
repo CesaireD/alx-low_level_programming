@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	unsigned long int i,a = 2, b = 1, b1, b2, a1, a2;
+	unsigned long int i, a = 2, b = 1, b1, b2, a1, a2;
 	unsigned long int l = 1000000000;
 
 	printf("%lu", b);
