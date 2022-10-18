@@ -2,16 +2,12 @@
 /**
  * main - fibonacci <3
  *
- * Purpose - no hardcode
- *
  * Return:  (Success)
  */
 
 int main(void)
 {
-	unsigned long int i, b1, b2, a1, a2;
-	unsigned long int b = 1;
-	unsigned long int aft = 2;
+	unsigned long int i,a = 2, b = 1, b1, b2, a1, a2;
 	unsigned long int l = 1000000000;
 
 	printf("%lu", b);
@@ -32,10 +28,10 @@ int main(void)
 	{
 		printf(", %lu", a1 + (a2 / l));
 		printf("%lu", a2 % l);
-		aft1 = a1 + b1;
-		bef1 = a1 - b1;
-		aft2 = a2 + b2;
-		bef2 = a2 - b2;
+		a1 = a1 + b1;
+		b1 = a1 - b1;
+		a2 = a2 + b2;
+		b2 = a2 - b2;
 	}
 	printf("\n");
 	return (0);
