@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * print_triangle - prints a triangle
  * @size: Determines how big the triangle
